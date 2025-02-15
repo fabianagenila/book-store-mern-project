@@ -2,8 +2,8 @@ import bannerImg from "../../assets/banner.png";
 
 const Banner = () => {
   return (
-    <div className="grid md:grid-cols-2 py-16 justify-between items-center gap-12">
-      <div className="order-1 md:order-2 md:w-1/2 w-full">
+    <div className="flex flex-col-reverse md:flex-row py-16 justify-between items-center gap-12">
+      <div className="md:w-1/2 w-full">
         <h1 className="md:text-5xl text-2xl font-medium mb-7">
           New Release This Week
         </h1>
